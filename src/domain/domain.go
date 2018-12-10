@@ -28,7 +28,7 @@ type ImageTweet struct {
 
 type QuoteTweet struct {
 	TextTweet
-	Quoted TextTweet
+	Quoted Tweet
 }
 
 func NewTextTweet(user string, text string) (p *TextTweet) {
@@ -51,10 +51,10 @@ func NewImageTweet(user string, text string, url string) (p *ImageTweet) {
 	return
 }
 
-func NewQuoteTweet(user string, text string, quoted *TextTweet) (p *QuoteTweet) {
+func NewQuoteTweet(user string, text string, quoted Tweet) (p *QuoteTweet) {
 	t := QuoteTweet{
 		TextTweet: *NewTextTweet(user,text),
-		Quoted: *quoted,
+		Quoted: quoted,
 	}
 	p = &t
 	return

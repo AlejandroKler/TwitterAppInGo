@@ -12,8 +12,8 @@ type TweetManager struct {
 	writer TweetWriter
 }
 
-func NewTweetManager(writer TweetWriter) (tm TweetManager){
-	tm = TweetManager{
+func NewTweetManager(writer TweetWriter) (tm *TweetManager){
+	tm = &TweetManager{
 		tweets : make([]domain.Tweet,0),
 		tweetsByUser : make(map[string][]domain.Tweet),
 		writer: writer,

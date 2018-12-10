@@ -1,1 +1,8 @@
-@Usuario de shell: hola estoy en twitter wow much wow
+@ale: river somo campeone otra ve
+@sjkfnasf: dlkjksdgjdfgsdfg
+@sjkfnasf: vamooo
+@pity: que loco que estoy
+@ale: esta re locooo!  "@sjkfnasf: dlkjksdgjdfgsdfg"
+@cave: este es un quote de un quote "@ale: esta re locooo!  "@sjkfnasf: dlkjksdgjdfgsdfg""
+@cave: este es un quote de sadfsdfsdfwsf quote
+@cave: esto fue para probar algo "@cave: este es un quote de sadfsdfsdfwsf quote"
